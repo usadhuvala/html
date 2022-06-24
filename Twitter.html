@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <style>
+        .parent{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(170, 169, 169);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child{
+            width: 40%;
+            height: 90%;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .adult{
+            width: 55%;
+            height: 95%;
+            background-color: white;
+            border-radius: 15px;
+            text-align: center;
+        }
+        span{
+            position: relative; 
+            right: 225px;
+            bottom: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            text-align: left;
+            font-size: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 7px;
+        }
+        button{
+            width: 100%;
+            height: 7%;
+            border-radius: 50px;
+            border: 0px solid gray;
+            background-color: white;
+            box-shadow: 0px 0px 2px rgb(158, 157, 157);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px; 
+        }
+        .google{
+            text-align: center       
+        }
+        .apple{
+            text-align: center           
+        }
+        .next{
+            width: 100%;
+            height: 7%;
+            border-radius: 50px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .password{
+            width: 100%;
+            height: 7%;
+            border-radius: 50px;
+            border: 0px solid gray;
+            background-color: white;
+            box-shadow: 0px 0px 2px rgb(158, 157, 157);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            width: 100%;
+            height: 10%;
+            border-radius: 5px;
+            border: 0px solid gray;
+            background-color: white;
+            box-shadow: 0px 0px 2px rgb(158, 157, 157);
+            font-size: 15px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            text-align: left;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+        .sign{
+            color: blue;
+        }
+        .or{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: -10px;
+            font-size: 20px;
+            color: rgb(158, 157, 157);
+
+        }
+        .por{
+            margin: -15px;
+            color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="adult">
+            <a href="Twitter.html"><span><b>X</b></span></a>
+            <img src="twitter.png" alt="" width="30px" height="30px" >
+            <h1><b>Sign in to Twitter</b></h1>
+            <br>
+            <button class="google"> <img src="google.png" width="18px" height="18px" alt=""><b> &nbsp; Sign in With Google</b></button>
+            <br>
+            <button class="apple"> <img src="apple.png" width="18px" height="18px" alt=""> <b>&nbsp; Sign in With Apple</b></button>
+            <br>
+            <div class="or">
+                <hr width="40%">
+                <p class="por">or</p>
+                <hr width="40%">
+            </div>
+            <br>
+            <input type="text" name="" id="" placeholder="Phone, Email Address or Username">
+            <br>
+            <button class="next" ><b>Next</b></button>
+            <br>
+            <a href="twitter_forgot.html"><button class="password" ><b>Fogot Password?</b></button></a>
+            <br>
+            <p><label>Don't have an account?</label> <a href="twitter_signup.html"> <label class="sign">Sign up</label></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

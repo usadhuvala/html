@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Sample</title>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+        .child1{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(237, 234, 241);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child2{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(244, 242, 247);
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+        }
+        .child3{
+            width: 75%;
+            height: 30%;
+            background-color: rgb(244, 242, 247);
+            
+        }
+        input{
+            width: 32%;
+            height: 15%;
+            margin: -3px;
+            border: 0.5px solid rgb(197, 196, 196);
+            padding-left: 15px;
+        }
+        button{
+            width: 64%;
+            height: 16%;
+            margin: 15px;
+            background-color: green;
+            color: white;
+            border: 0px solid white;
+            font-size: 12px;
+        }
+        .forgot{
+            color: green;
+        }
+        span{
+            font-size: 12px;
+        }
+        for{
+            color: gray;
+        }
+        p{
+            color: rgb(87, 85, 85);
+        }
+        *{
+            color:red;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="child1">
+    <img src="apple.png" alt="" width="500px" height="500px" >
+    </div>
+    <div class="child2">
+        <div class="child3">
+        <p><b>ACCOUNT LOGIN</b></p>
+            <input type="text" name="Username" placeholder="User name">
+            <input type="text" name="password" placeholder="Password">
+            <br>
+            <a href="dashboard.html">
+            <button>SIGN IN </button>
+            </a>
+            <br>
+            <span class="for">Forgot </span><span class="forgot"><b> Username/password?</b></span>
+        </div>    
+    </div>
+    </div>
+    
+</body>
+</html>

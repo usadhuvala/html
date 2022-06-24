@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Positions</title>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(54, 54, 238);
+        }
+        .child{
+            width: 30%;
+            height: 70%;
+            border-radius: 2%;
+            position: relative;
+            bottom: 50px;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 30px;
+        }
+        p{
+            font-size: 22px;
+            text-align: center;
+            position: relative;
+            bottom: 10px;
+        }
+        .text{
+            border-radius: 50px;
+            border: 1px solid rgb(194, 194, 194);
+            width: 100%;
+            height: 10%;
+            padding-left: 25px;
+        }
+        button{
+            border-radius: 50px;
+            border: 0px solid black;
+            width: 100%;
+            height: 10%;
+            position: relative;
+            top: 5px;
+            text-transform: uppercase;
+            color: white;
+        }
+        .bott1{
+            position: relative;
+            top: -10px;
+            background-color: red;
+            font-size: 20px;
+        }
+        .bott2{
+            position: relative;
+            top: -20px;
+            background-color: rgb(4, 4, 158);
+            font-size: 20px
+        }
+        .sign{
+            font-size: 12px;
+            background-color: blue;
+            position: relative;
+            top: 10px;
+        }
+        hr{
+            position: relative;
+            bottom: 0px;
+        }
+        .size{
+            font-size: 12px;
+            position: relative;
+            bottom: 2px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <p>Sign In</p>
+            <input class="text" type="text" name="email" id="" placeholder="Email address">
+            <br><br>
+            <input class="text" type="text" name="password" id="" placeholder="Password">
+            <br><br>
+            <input type="checkbox" id="pass">
+            <label for="pass">Remember Password</label>
+            <br>
+            <button class="sign"><b>sign in</b></button>
+            <br><br><hr><br>
+            <button class="bott1"><span><b>g &nbsp;</b></span><b class="size">sign in with google</b></button>
+            <br>
+            <br>
+            <button class="bott2"><span><b>f &nbsp;</b></span><b class="size">sign in with facebook</b></button>
+        </div>
+    </div>
+</body>
+</html>

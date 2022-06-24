@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child{
+            width: 500px;
+            height: 500px;
+            border-radius: 20%;
+            background-image: linear-gradient( to right top,yellow,orange 5%,red 25%, indigo 55%,violet 200%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child1{
+            width: 400px;
+            height: 400px;
+            border: 25px solid white;
+            border-radius: 20%;
+        }
+        .cir{
+            width: 100%;
+            height: 20%;
+            border-top-left-radius: 60px;
+            border-top-right-radius: 60px;
+        }
+        .cir1{
+            width: 35px;
+            height: 35px;
+            background-color: white;
+            position: relative;
+            top: 30px;
+            left: 280px;
+            border-radius: 100%;
+        }
+        .child2{
+            width: 100%;
+            height: 80%;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cir2{
+            width: 230px;
+            height: 230px;
+            border: 25px solid white;
+            border-radius: 100%;
+            position: relative;
+            bottom: 35px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="child1">
+                <div class="cir">
+                    <div class="cir1"></div>
+                </div>
+                <div class="child2">
+                    <div class="cir2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
